@@ -6,6 +6,7 @@
 - Run 'vagrant up' from inside the folder
 - Run 'vagrant ssh' to login to the VM
 - Run drush commands from inside the VM
+- In PHPStorm create a project from existing files and navigate to the drupal folder inside the drupalvm folder
 ### Nota bene
 - Drush is version 8 which works best on drupal 7
 - use 'drush cr' to clear the cache
