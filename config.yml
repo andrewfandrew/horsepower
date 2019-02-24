@@ -1,0 +1,21 @@
+drupal_build_makefile: true
+drupal_build_composer_project: false
+
+drupal_major_version: 7
+
+drupal_enable_modules: []
+
+installed_extras:
+  - adminer
+  - drush
+  - mailhog
+  - pimpmylog
+  - upload-progress
+  - xdebug
+
+# drush 8 instead of drush 9
+drush_launcher_install: no
+drush_install_from_source: yes
+# Drush 8.1.17 tag
+drush_source_install_version: "8.1.17"
+php_version: "5.6"
