@@ -18,4 +18,4 @@ drush_launcher_install: no
 drush_install_from_source: yes
 # Drush 8.1.17 tag
 drush_source_install_version: "8.1.17"
-php_version: "5.6"
+php_version: "7.1"
