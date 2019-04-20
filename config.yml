@@ -11,7 +11,7 @@ installed_extras:
   - mailhog
   - pimpmylog
   - upload-progress
-  - xdebug
+ #  - xdebug
 
 # drush 8 instead of drush 9
 drush_launcher_install: no
