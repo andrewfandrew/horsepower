@@ -19,3 +19,9 @@ drush_install_from_source: yes
 # Drush 8.1.17 tag
 drush_source_install_version: "8.1.17"
 php_version: "7.1"
+
+# If you need to run multiple instances of Drupal VM, set a unique hostname,
+# machine name, and IP address for each instance.
+vagrant_hostname: drupalvm7.aeg.test
+vagrant_machine_name: drupalvm7-aeg
+vagrant_ip: 192.168.88.90
