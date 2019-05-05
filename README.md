@@ -3,8 +3,9 @@
 ## Drupalvm tailored for Drupal 7 running on Windows 10
 
 ### To clone a single branch
+```
 git clone -b multi-aeg --single-branch https://github.com/andrewfandrew/horsepower.git
-
+```
 ### Instructions
 - Run 'vagrant up' from inside the folder
 - Run 'vagrant ssh' to login to the VM
